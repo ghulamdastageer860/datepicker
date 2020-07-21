@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#25CCF7</color>
+    <color name="colorPrimaryDark">#2475B0</color>
+    <color name="colorAccent">#2475B0</color>
+
+    <color name="constraintLayoutBackground">#25CCF7</color>
+
+    <color name="colorCard">#ffffff</color>
+    <color name="colorCardSelected">@color/colorAccent</color>
+</resources>

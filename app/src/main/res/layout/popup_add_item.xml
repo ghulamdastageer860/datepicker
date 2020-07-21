@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPopupAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextPopupAddItemsItemName"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter item" />
+
+        <EditText
+            android:id="@+id/editTextPopupAddItemsItemPrice"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:hint="Item Price" />
+            <Button
+                android:id="@+id/buttonPopupAddItemAddDate"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selector"
+                android:textColor="@android:color/white"
+                android:text="Add Date"
+                />
+    </LinearLayout>
+    <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+        android:layout_margin="10dp"
+            android:id="@+id/popupAddItemDatePicker"
+             />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Save"
+        android:background="@drawable/button_selector"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/buttonPopupAddItemSave"
+
+       />
+</LinearLayout>
